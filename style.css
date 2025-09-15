@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    border: 1px solid black;
+    height: 100px;
+}
+
+.links {
+    float: right;
+    display: flex;
+    
+}
+
+.nav img {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.box1, .box2, .centro {
+    border: 1px solid red;
+    display: flex;
+}
+
+.centro {
+    width: 70%;
+}
+
+.box1, .box2 {
+    width: 15%;
+}
+
+
+.rodape{
+    border: 1px solid black;
+}
+
+
+
