@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: blue; */
+}
+
+.topo {
+    width: 100%;
+    background-color: #4D81BA;
+    height: 100px;
+}
+
+.logo img {
+    width: 65px;
+    padding-top: 18px;
+    padding-left: 14px;
+}
+
+.logo {
+    width: 70%;
+    float: left;
+    display: inline-flex;
+}
+
+.nome {
+    font-size: 37px;
+    font-weight: bold;
+    color: white;
+    margin-top: 29px;
+    padding-left: 10px;
+}
+
+.itens {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+
+.itens li a {
+    color: white;
+    font-size: 27px;
+    text-decoration: none;
+    text-transform: capitalize;
+
+}
+
+.pesquisa img {
+    margin-left: -22px;
+    margin-bottom: -3px;
+}
+
+.pesquisa {
+    padding-top: 27px;
+    padding-left: 10px;
+    margin-bottom: 12px;
+    margin-left: 10px;
+}
+
+.pesquisa span {
+    margin-left: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.pesquisa input {
+    height: 23px;
+    border-radius: 10px;
+    border: 0px;
+    width: 241px;
+}
+
+.banner {
+    background-image: url("../imagens/imagens/vw-destaque1.jpeg");
+    height: 637px;
+    /* width: 100%; */
+    background-size: cover;
+    background-position: bottom;
+}
+
+.transparente {
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 400px;
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 178px;
+}
+
+
+.transparente p {
+    width: 50%;
+    float: left;
+    padding: 81px;
+    padding-left: 75px;
+    color: white;
+    font-size: 63px;
+    border: 1px solid red;
+}
+
+.transparente button {
+    padding: 19px;
+    margin-top: 175px;
+    margin-left: 14px;
+    font-size: 25px;
+    color: white;
+    border-radius: 15px;
+    background: linear-gradient(to bottom, #16aadb, #4d81ba);
+}
+
+.transparente button:hover {
+    box-shadow: 2px 4px 6px rgba(255, 255, 255, 1.2);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.lancamentos {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+
+.lanc p {
+    text-align: center;
+    font-size: 45px;
+    /* background-color: #4D81BA; */
+}
+
+.lanc p img {
+    margin-left: 102px;
+}
+
+.lanc:hover {
+    background-color: #4d81ba;
+    transition: transform 0.3s ease;
+}
+
+
+.vendasCorp {
+    margin-top: 100px;
+    background-image: url("../imagens/imagens/corporativo.png");
+    height: 445px;
+    /* width: 100%; */
+    background-size: cover;
+    background-position: bottom;
+}
+
+.vendasCorp p {
+    border: 1px solid red;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 100px;
+    color: white;
+    
+}
