@@ -96,7 +96,7 @@
     padding-left: 75px;
     color: white;
     font-size: 63px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .transparente button {
@@ -147,10 +147,91 @@
 }
 
 .vendasCorp p {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     position: absolute;
-    margin-top: 100px;
+    margin-top: 170px;
     margin-left: 100px;
     color: white;
-    
+    font-size: 35px;
+}
+
+.vendasCorp h2 {
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 119px;
+    font-size: 60px;
+    color: white;
+}
+
+.vendasButton {
+    margin-left: 100px;
+    margin-top: 265px;
+    padding: 11px;
+    font-size: 25px;
+    color: white;
+    border-radius: 15px;
+    box-shadow: white;
+    background: linear-gradient(to bottom, #16aadb, #4d81ba);
+}
+
+.vendasButton:hover {
+    box-shadow: 2px 4px 6px rgba(255, 255, 255, 1.2);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.servicos {
+    display: flex;
+    gap: 38px;
+    margin-top: 100px;
+    padding-top: 35px;
+    background-color: #EDEDED;
+    justify-content: center;
+    height: 800px;
+    padding-bottom: 30px;
+}
+
+.servicos h3 {
+    text-align: center;
+    font-size: 45px;
+}
+
+.servicos p {
+    text-align: center;
+    font-size: 26px;
+    padding: 17px;
+}
+
+.rodape {
+    padding-top: 30px;
+    background-color: #192E43;
+    height: 80px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+@media screen and (max-width: 756px) {
+
+    .pesquisa,
+    .menu {
+        display: none;
+    }
+
+    .transparente {
+        display: block;
+        align-content: end;
+        margin-left: 0;
+        margin-top: 236px;
+        padding-right: 95px;
+    }
+
+    .transparente p {
+        font-size: 55px;
+    }
+
+    .transparente button {
+        
+        
+    }
 }
